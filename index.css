@@ -1,0 +1,65 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: #1c1c1c;
+}
+
+#container {
+  width: 550px;
+  margin: 5% auto;
+  border: none;
+  background-color: #1f2937;
+  color: white;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 14px;
+}
+
+#color {
+  width: 61px;
+  border: none;
+}
+
+#mode {
+  width: 312px;
+  padding-left: 13px;
+}
+
+#submit-btn {
+  width: 123px;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+#mode,
+#submit-btn {
+  background-color: transparent;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+#color,
+#mode,
+#submit-btn {
+  height: 42px;
+  color: white;
+}
+
+#color-list {
+  display: grid;
+  grid-template: 8fr 1fr / repeat(5, 1fr);
+  height: 414px;
+}
+
+.col-hex {
+  text-align: center;
+  font-size: 0.75em;
+  margin: auto 0;
+}
